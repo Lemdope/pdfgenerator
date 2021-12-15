@@ -19,10 +19,8 @@ with open('names.txt', 'r') as f:
 
 persons = []
 
-# input_string = input("Enter all members name separated by comma: ")
 # Split string into words
 family_list = lines.split(", ")
-# family_list = input_string.split(", ")
 
 print("\n")
 # Iterate a list
@@ -76,7 +74,6 @@ def generate_file():
                                             "C:/balticnetworks/users/" + i.username + "<br><hr> "
                                             "<b>Benutzergruppe: </b>" + "Employees <br><hr> </div>"
                                           ))
-    # file += as_round_box("dimgray", "<br>")
     file += "</div>"
     return file
 
